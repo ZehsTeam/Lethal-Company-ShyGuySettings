@@ -8,7 +8,7 @@
     <AssemblyName>com.github.zehsteam.$(MSBuildProjectName)</AssemblyName> <!-- PLUGIN_GUID -->
     <Product>$(MSBuildProjectName)</Product>                               <!-- PLUGIN_NAME -->
     <Version>1.0.0</Version>                                               <!-- PLUGIN_VERSION -->
-    <Description>Adds a customizable Takey plushie scrap item with some functionalities and other secrets. 😈</Description>
+    <Description>This mod lets you configure the Shy Guy (SCP-096) enemy from the Scopophobia mod. Probability Curve, Spawn Weight, Max Spawn Count, SpawnInside, and SpawnOutside.</Description>
     
     <RootNamespace>com.github.zehsteam.$(MSBuildProjectName)</RootNamespace>
 

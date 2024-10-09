@@ -33,8 +33,8 @@ public class EnemyConfigData
 
         SpawnWeight =   ConfigHelper.Bind(section, "SpawnWeight",   defaultValue: DefaultValues.SpawnWeight,   requiresRestart: false, $"The spawn weight of {EnemyDataManager.EnemyName}.");
         MaxSpawnCount = ConfigHelper.Bind(section, "MaxSpawnCount", defaultValue: DefaultValues.MaxSpawnCount, requiresRestart: false, $"The max amount of {EnemyDataManager.EnemyName} that can spawn.");
-        SpawnInside =   ConfigHelper.Bind(section, "SpawnInside",   defaultValue: DefaultValues.SpawnInside,   requiresRestart: false, $"If enabled, {EnemyDataManager.EnemyName} can spawn inside.");
-        SpawnOutside =  ConfigHelper.Bind(section, "SpawnOutside",  defaultValue: DefaultValues.SpawnOutside,  requiresRestart: false, $"If enabled, {EnemyDataManager.EnemyName} can spawn outside.");
+        SpawnInside =   ConfigHelper.Bind(section, "SpawnInside",   defaultValue: DefaultValues.SpawnInside,   requiresRestart: false, $"If enabled, {EnemyDataManager.EnemyName} will be able to spawn inside.");
+        SpawnOutside =  ConfigHelper.Bind(section, "SpawnOutside",  defaultValue: DefaultValues.SpawnOutside,  requiresRestart: false, $"If enabled, {EnemyDataManager.EnemyName} will be able to spawn outside.");
 
         SpawnWeight.SettingChanged += SpawnWeight_SettingChanged;
         MaxSpawnCount.SettingChanged += MaxSpawnCount_SettingChanged;
